@@ -1,0 +1,41 @@
+<script type="module" src="https://togostanza.github.io/metastanza-devel/barchart.js" async></script>
+
+<style>
+  togostanza-barchart {
+    --togostanza-canvas-width: 1000;
+    --togostanza-canvas-height: 100000;
+    --togostanza-fonts-font_family: Poppins, Helvetica, Arial;
+    --togostanza-border-width: 2;
+  }
+</style>
+
+<togostanza-barchart
+  data-url="https://raw.githubusercontent.com/auliaazmi23/UGM-MetaStanza/refs/heads/main/bar_graph_data.json"
+  data-type="json"
+  axis-x-key="chromosome"
+  axis-x-placement="bottom"
+  axis-x-title="Chromosome"
+  axis-x-title_padding="40"
+  axis-x-ticks_label_angle="-45"
+  axis-x-ticks_interval=""
+  axis-x-ticks_labels_format=",.2r"
+  axis-x-gridlines_interval=""
+  axis-y-key="count"
+  axis-y-placement="left"
+  axis-y-title="Value"
+  axis-y-title_padding="40"
+  axis-y-ticks_label_angle="0"
+  axis-y-ticks_interval=""
+  axis-y-ticks_labels_format=""
+  axis-y-gridlines_interval=""
+  group-key="category"
+  group-arrangement="stacked"
+  node-color_key="color"
+  errorbar-key="error"
+  tooltip="{{#if url}}&lt;a href&#x3D;{{url}}&gt;{{count}}&lt;/a&gt;{{else}}&lt;span&gt;{{count}}&lt;/span&gt;{{/if}}"
+  legend-visible
+  legend-title="Category"
+  event-incoming_change_selected_nodes
+  event-outgoing_change_selected_nodes
+  togostanza-custom_css_url=""
+></togostanza-barchart>
