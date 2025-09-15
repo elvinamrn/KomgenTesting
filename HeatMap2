@@ -1,0 +1,51 @@
+[
+  { "group": "ARID1A", "variable": "likely_pathogenic", "value": 62.38 },
+  { "group": "ARID1A", "variable": "likely_benign", "value": 0 },
+  { "group": "ARID1A", "variable": "ambiguous", "value": 0 },
+  { "group": "ARID1A", "variable": "unknown", "value": 0 },
+
+  { "group": "PTCH2", "variable": "likely_pathogenic", "value": 0 },
+  { "group": "PTCH2", "variable": "likely_benign", "value": 10.04 },
+  { "group": "PTCH2", "variable": "ambiguous", "value": 0 },
+  { "group": "PTCH2", "variable": "unknown", "value": 0 },
+
+  { "group": "MSH6", "variable": "likely_pathogenic", "value": 0 },
+  { "group": "MSH6", "variable": "likely_benign", "value": 32.95 },
+  { "group": "MSH6", "variable": "ambiguous", "value": 0 },
+  { "group": "MSH6", "variable": "unknown", "value": 0 },
+
+  { "group": "IDH1", "variable": "likely_pathogenic", "value": 98.05 },
+  { "group": "IDH1", "variable": "likely_benign", "value": 0 },
+  { "group": "IDH1", "variable": "ambiguous", "value": 0 },
+  { "group": "IDH1", "variable": "unknown", "value": 0 },
+
+  { "group": "MCC", "variable": "likely_pathogenic", "value": 0 },
+  { "group": "MCC", "variable": "likely_benign", "value": 0 },
+  { "group": "MCC", "variable": "ambiguous", "value": 0 },
+  { "group": "MCC", "variable": "unknown", "value": 50.0 },
+
+  { "group": "ARID1B", "variable": "likely_pathogenic", "value": 0 },
+  { "group": "ARID1B", "variable": "likely_benign", "value": 0 },
+  { "group": "ARID1B", "variable": "ambiguous", "value": 48.8 },
+  { "group": "ARID1B", "variable": "unknown", "value": 0 },
+
+  { "group": "CTNNB1", "variable": "likely_pathogenic", "value": 99.84 },
+  { "group": "CTNNB1", "variable": "likely_benign", "value": 0 },
+  { "group": "CTNNB1", "variable": "ambiguous", "value": 0 },
+  { "group": "CTNNB1", "variable": "unknown", "value": 0 },
+
+  { "group": "KRAS", "variable": "likely_pathogenic", "value": 87.41 },
+  { "group": "KRAS", "variable": "likely_benign", "value": 0 },
+  { "group": "KRAS", "variable": "ambiguous", "value": 0 },
+  { "group": "KRAS", "variable": "unknown", "value": 0 },
+
+  { "group": "TP53", "variable": "likely_pathogenic", "value": 95.12 },
+  { "group": "TP53", "variable": "likely_benign", "value": 0 },
+  { "group": "TP53", "variable": "ambiguous", "value": 0 },
+  { "group": "TP53", "variable": "unknown", "value": 0 },
+
+  { "group": "PIK3CA", "variable": "likely_pathogenic", "value": 72.66 },
+  { "group": "PIK3CA", "variable": "likely_benign", "value": 0 },
+  { "group": "PIK3CA", "variable": "ambiguous", "value": 0 },
+  { "group": "PIK3CA", "variable": "unknown", "value": 0 }
+]
