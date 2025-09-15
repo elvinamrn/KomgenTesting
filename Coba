@@ -1,0 +1,11 @@
+[
+  { "group": "ARID1A", "variable": "likely_pathogenic", "value": 0.6238 },
+  { "group": "ARID1A", "variable": "likely_benign", "value": 0 },
+  { "group": "ARID1A", "variable": "ambiguous", "value": 0 },
+  { "group": "ARID1A", "variable": "unknown", "value": 0 },
+
+  { "group": "PTCH2", "variable": "likely_pathogenic", "value": 0 },
+  { "group": "PTCH2", "variable": "likely_benign", "value": 0.1004 },
+  { "group": "PTCH2", "variable": "ambiguous", "value": 0 },
+  { "group": "PTCH2", "variable": "unknown", "value": 0 }
+]
